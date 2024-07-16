@@ -1,0 +1,11 @@
+id = "surrealql"
+name = "SurrealQL"
+version = "0.1.0"
+schema_version = 1
+authors = ["Stefan Kopco<hey@oddcelot.dev>"]
+description = "SurrealQL syntax highlighting for Zed"
+repository = "https://github.com/oddcelot/zed-surrealql"
+
+[grammars.surrealql]
+repository = "https://github.com/DariusCorvus/tree-sitter-surrealdb"
+commit = "17a7ed4481bdaaa35a1372f3a94bc851d634a19e"
